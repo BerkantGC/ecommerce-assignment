@@ -1,4 +1,4 @@
-# 🛍️ E-Commerce Midterm Project
+# 🛍️ E-Commerce Assignment Project
 
 Bu proje, React + Express + SQLite kullanarak geliştirilen full-stack bir e-ticaret ana sayfasıdır. Tüm içerikler dinamik olarak backend API'den gelir, responsive tasarım ve Redux ile gezilen ürün takibi yapılır.
 
