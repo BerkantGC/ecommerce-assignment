@@ -77,6 +77,22 @@ npm start          # http://localhost:3000 üzerinde çalışır
 
 ---
 
+---
+
+## 🌍 Deploy
+
+### 🔗 Backend (Render):
+```
+https://ecommerce-assignment-o7bi.onrender.com
+```
+
+### 🔗 Frontend (Vercel):
+```
+https://ecommerce-assignment-fawn.vercel.app/
+```
+
+---
+
 ## 📸 Statik Dosyalar
 
 Backend üzerinde `public/image/` klasöründe barınır.
