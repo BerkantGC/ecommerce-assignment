@@ -1,0 +1,27 @@
+/* Ensure dropdown menus display properly on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+/* Smooth animation for dropdown appearance */
+.dropdown-menu {
+  display: none;
+  transition: all 0.3s;
+}
+
+/* Ensure dropdown toggle arrows still look clickable */
+.dropdown-toggle::after {
+  display: inline-block;
+}
+
+/* Ensure dropdown functionality on mobile remains intact */
+@media (max-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: none;
+  }
+  
+  .dropdown.show .dropdown-menu {
+    display: block;
+  }
+}
